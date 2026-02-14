@@ -1,6 +1,10 @@
 var vel = 60.5
-console.log('A velocidade do seu carro é s(vel)km/h')
-if (vel > 60.5){ // Condições simples
-    console.log('você ultrapassou a velocidade permitida. Multado!')
+// Correção: Troquei s(vel) por ${vel}
+console.log(`A velocidade do seu carro é ${vel} km/h`)
+
+// Lógica: Se quiser multar EXATAMENTE a partir de 60.5, use >= 
+if (vel > 60.5) { 
+    console.log('Você ultrapassou a velocidade permitida. MULTADO!')
 }
+
 console.log('Dirija sempre usando cinto de segurança!')
