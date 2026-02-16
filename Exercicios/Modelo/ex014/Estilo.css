@@ -21,7 +21,12 @@ div{
     text-align: center;
     font-style: bold;
 }
-
+ 
+div#foto > img {
+    border-radius: 900px;
+    box-sizing: 50px;
+    width: 150px;
+}
 footer{
     color: white;
     text-align: center;
